@@ -7,7 +7,7 @@ import useWeather from './hooks/useWeather'
 function App() {
 
 const {fetchWeather, weather, loading, hasWeatherData, noFound} = useWeather()
-  console.log(noFound)
+  
   return (
     <>
      <h1 className={styles.title}>Buscador de Clima</h1>
